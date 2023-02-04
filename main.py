@@ -9,7 +9,6 @@ from PIL import ImageTk
 import PIL.Image
 import requests
 
-from background import *
 from listening import Listening
 from speaking import Speaking
 from practice import Practice
@@ -27,7 +26,7 @@ class HomePage:
 
         tkinter.Button(navBar, text="Listening", command=Listening,justify=LEFT).grid(row=0,column=0, columnspan=1)
         tkinter.Button(navBar, text="Speaking",command=Speaking,justify=LEFT).grid(row=0,column=1)
-        tkinter.Button(navBar, text="Practice",command=Practice,justify=LEFT).grid(row=1,column=0,columnspan=2)
+        #tkinter.Button(navBar, text="Practice",command=Practice,justify=LEFT).grid(row=1,column=0,columnspan=2)
         tkinter.Button(navBar, text="Reading",command=Reading,justify=LEFT).grid(row=2,column=0)
         tkinter.Button(navBar, text="Writing",command=Writing,justify=LEFT).grid(row=2,column=1)
 
