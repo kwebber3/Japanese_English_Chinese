@@ -61,7 +61,7 @@ def load_speaking_dictionary(filename, sep = "\t"):
     i = 1
     for index, row in x.iterrows():
         this_score = row[S_SCORE_HEADER]
-        if (row(L_SCORE_HEADER) < MIN_SCORE):
+        if (row[L_SCORE_HEADER] < MIN_SCORE):
             this_score = 0
         dictionary[this_score].append([row[JAPANESE_HEADER],row[ENGLISH_HEADER],row[JP_SENTENCE_HEADER],row[ENG_SENTENCE_HEADER],row[L_SCORE_HEADER]])
         i = i + 1
@@ -144,7 +144,7 @@ def load_writing_dictionary(filename, sep = "\t"):
     i = 1
     for index, row in x.iterrows():
         this_score = row[W_SCORE_HEADER]
-        if (row(R_SCORE_HEADER) < MIN_SCORE):
+        if (row[R_SCORE_HEADER] < MIN_SCORE):
             this_score = 0
         dictionary[this_score].append([row[KANJI_HEADER],row[ENGLISH_HEADER],row[E_SENT_HEADER],row[E_SENT_R_HEADER],row[ENG_SENTENCE_HEADER],row[R_SCORE_HEADER],row[R_HEADER]])
         i = i + 1
@@ -216,6 +216,7 @@ def get_card(current_score, last_score, my_scored_cards, score_weights):
 
 def get_card_advanced(current_score, last_score, my_scored_cards, score_weights):
     #print(current_score)
+    state = "GOOD"
     if not my_scored_cards[current_score] == []:
         current_card = my_scored_cards[current_score][0]
     
@@ -231,8 +232,13 @@ def get_card_advanced(current_score, last_score, my_scored_cards, score_weights)
             if current_score != last_score and not my_scored_cards[current_score] == []:
                 current_card = my_scored_cards[current_score][0]
                 selected = True
-        if selected == False:
+        if selected == False and last_score >= 0:
             current_card = my_scored_cards[last_score]
             current_score = last_score
             print("***")
-    return current_score, current_card
+        else:
+            current_card = "ERROR"
+            current_score = last_score
+            state = "ERROR"
+            
+    return current_score, current_card, state

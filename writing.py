@@ -24,17 +24,19 @@ class Writing(Toplevel,):
         Toplevel.__init__(self) 
         self.state("zoomed")
         self.grab_set()
+        self.title("Writing")
+        self.grab_set()
         self.my_scored_cards, self.score_weights, self.number_of_cards = load_writing_dictionary(DICTIONARY_NAME)      
         self.last_score = -1
 
-        self.show_button = tkinter.Button(self, text="Show Kanji", command=lambda:self.ShowReading())
-        self.show_button.grid(row=0, column=0)
+        self.show_button1 = tkinter.Button(self, text="Show Kanji", command=lambda:self.ShowReading())
+        self.show_button1.grid(row=0, column=0)
 
-        self.show_button = tkinter.Button(self, text="Show Example", command=lambda:self.ShowExample())
-        self.show_button.grid(row=0, column=1)
+        self.show_button2 = tkinter.Button(self, text="Show Example", command=lambda:self.ShowExample())
+        self.show_button2.grid(row=0, column=1)
 
-        self.show_button = tkinter.Button(self, text="Show English", command=lambda:self.ShowAnswer())
-        self.show_button.grid(row=0, column=2)
+        self.show_button3 = tkinter.Button(self, text="Show English", command=lambda:self.ShowAnswer())
+        self.show_button3.grid(row=0, column=2)
 
         self.right_button = tkinter.Button(self, text="Correct", command=lambda:self.AddPoint())
         self.right_button.grid(row=1, column=0)
@@ -56,28 +58,35 @@ class Writing(Toplevel,):
         self.card_panel = tkinter.Frame(self)
         self.card_panel.grid(row=2,column=0,columnspan=2)
         self.current_score = random.choices(range(1,len(self.score_weights)+1),weights = self.score_weights)[0]
-        self.current_score, self.current_card = get_card_advanced(self.current_score,self.last_score,self.my_scored_cards, self.score_weights)
-        
-        Kanji = self.current_card[K_INDEX]
-        Reading = self.current_card[R_INDEX]
-        English = re.sub("@","\n",self.current_card[ENG_INDEX])
-        Japanese_Example = re.sub("@","\n",self.current_card[JP_SENT_INDEX])
-        English_Sentence = re.sub("@","\n",self.current_card[ENG_SENT_INDEX])
-        Japanese_Example = re.sub("<[/]*b>","",Japanese_Example)
+        self.current_score, self.current_card, status = get_card_advanced(self.current_score,self.last_score,self.my_scored_cards, self.score_weights)
+        if status == "GOOD":
+            Kanji = self.current_card[K_INDEX]
+            Reading = self.current_card[R_INDEX]
+            English = re.sub("@","\n",self.current_card[ENG_INDEX])
+            Japanese_Example = re.sub("@","\n",self.current_card[JP_SENT_INDEX])
+            English_Sentence = re.sub("@","\n",self.current_card[ENG_SENT_INDEX])
+            Japanese_Example = re.sub("<[/]*b>","",Japanese_Example)
 
-        tkinter.Label(self.card_panel, text=Reading, font="Helvetica 36").grid(row=0,column=0)
-        self.kanji = tkinter.Label(self.card_panel, text=Kanji, font="Helvetica 36")
-        self.kanji.grid(row=1,column=0)
-        self.kanji.grid_remove()
-        self.hint_sentence = tkinter.Label(self.card_panel, text=Japanese_Example, font="Helvetica 30")
-        self.hint_sentence.grid(row=1,column=1)
-        self.hint_sentence.grid_remove()
-        self.answer = tkinter.Label(self.card_panel, text=English, font="Helvetica 36")
-        self.answer.grid(row=2,column=0)
-        self.answer.grid_remove()
-        self.example = tkinter.Label(self.card_panel, text=English_Sentence, font="Helvetica 30")
-        self.example.grid(row=2,column=1)
-        self.example.grid_remove()
+            tkinter.Label(self.card_panel, text=Reading, font="Helvetica 36").grid(row=0,column=0)
+            self.kanji = tkinter.Label(self.card_panel, text=Kanji, font="Helvetica 36")
+            self.kanji.grid(row=1,column=0)
+            self.kanji.grid_remove()
+            self.hint_sentence = tkinter.Label(self.card_panel, text=Japanese_Example, font="Helvetica 30")
+            self.hint_sentence.grid(row=1,column=1)
+            self.hint_sentence.grid_remove()
+            self.answer = tkinter.Label(self.card_panel, text=English, font="Helvetica 36")
+            self.answer.grid(row=2,column=0)
+            self.answer.grid_remove()
+            self.example = tkinter.Label(self.card_panel, text=English_Sentence, font="Helvetica 30")
+            self.example.grid(row=2,column=1)
+            self.example.grid_remove()
+        elif status == "ERROR":
+            self.show_button1.destroy()
+            self.show_button2.destroy()
+            self.show_button3.destroy()
+            self.wrong_button.destroy()
+            self.right_button.destroy()
+            tkinter.Label(self, text="PRACTICE READING MORE").grid(column=0, row = 0)
 
     def ShowReading(self):
         self.kanji.grid(row=1,column=0)

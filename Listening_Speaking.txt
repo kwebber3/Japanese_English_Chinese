@@ -1,4 +1,4 @@
-	Japanese	English	Japanese Example	English Sentence	speaking score	listening score
+	Japanese	English	Japanese Example	English Sentence	listening score	speaking score
 0	みみ	ear, hearing	かのじょ は <b>みみ</b> が よく きこえません	Her hearing isn't very good.	0	0
 1	じょうず	good, skilled	いもうと は うた が <b>じょうず</b> です	My little sister can sing.	0	0
 2	て	hand	わかった ひと は <b>て</b> を あげて ください	Please raise your hand if you understand.	0	0
@@ -3141,59 +3141,59 @@
 3139	せなか	back	<b>せなか</b> が かゆい です	My back itches.	0	0
 3140	がやがや	chatter loudly	せいとたち が <b>がやがや</b> と さわいで います ね	Students are making a lot of noise.	0	0
 3141	こうがい	environmental pollution@suburbs, outskirts	わたしたち は <b>こうがい</b> を へらす よう どりょく して います@わたし は <b>こうがい</b> に いえ を かいました	We are making an effort to decrease pollution.@I bought a house in the suburbs.	0	0
-3142	よっか	four days, 4th of the month	しんがっき は らいげつ の <b>よっか</b> から です	The new school term starts on the fourth of next month.	0	1
-3143	つき	moon	こんや は <b>つき</b> が とても きれい です	The moon looks so beautiful tonight.	0	1
-3144	みず	water	<b>みず</b> を いっぱい ください	Please give me a glass of water.	0	1
-3145	にちようび	Sunday	<b>にちようび</b> は うみ に いきました	We went to the seaside on Sunday.	0	1
-3146	どようび	Saturday	<b>どようび</b> の よる は くらぶ に いきます	I'm going to a club Saturday night.	0	1
-3147	きんようび	Friday	<b>きんようび</b> の よる は ともだち と でかけます	I go out with my friends on Friday nights.	0	1
-3148	げつようび	Monday	<b>げつようび</b> に あいましょう	Let's meet on Monday.	0	1
-3149	もくようび	Thursday	<b>もくようび</b> は しごと が やすみ です	Thursday is my day off work.	0	1
-3150	ようび	day of the week	<b>ようび</b> を まちがえました	I got the day of the week wrong.	0	1
-3151	かようび	Tuesday	<b>かようび</b> に かいぎ が あります	There's a meeting on Tuesday.	0	1
-3152	すいようび	Wednesday	<b>すいようび</b> は ばいと が あります	I have a part-time job on Wednesdays.	0	1
-3153	わかる	understand	しつもん の いみ は <b>わかりました</b> か	Did you understand the meaning of the question?	0	1
-3154	さき	ahead, first	お<b>さき</b>に どうぞ	Please go ahead.	0	1
-3155	ひゃく	hundred	わたし の そぼ は <b>ひゃく</b>さい です	My grandmother is 100 years old.	0	1
-3156	ことし	this year	<b>ことし</b> は いたりあ に りょこう したい	I want to travel to Italy this year.	0	1
-3157	こんげつ	this month	<b>こんげつ</b> は とても いそがしい	I'm very busy this month.	0	1
-3158	こんしゅう	this week	<b>こんしゅう</b> は にほんご の てすと が あります	There's a Japanese test this week.	0	1
-3159	くる	come	かれ は ひるすぎ に <b>きます</b>	He'll come after lunch.	0	1
-3160	らいねん	next year	<b>らいねん</b> いっしょ に りょこう しましょう	Let's travel together next year.	0	1
-3161	いく	go	にちようび は としょかん に <b>いきます</b>	I go to the library on Sundays.	0	1
-3162	おおきい	big	あの <b>おおきい</b> たてもの は なん です か	What's that big building?	0	1
-3163	ちいさい	small	<b>ちいさい</b> はな が さいて います	Small flowers are blooming.	0	1
-3164	すくない	few, little	ことし は あめ が <b>すくない</b> です 。	There's not much rain this year.	0	1
-3165	すこし	a bit, a little while	<b>すこし</b> つかれました	I'm a little tired.	0	1
-3166	おおい	lots of	きょうと に は おてら が <b>おおい</b>	There are a lot of temples in Kyoto.	0	1
-3167	じゅう	ten	その こ は ゆび で <b>じゅう</b> かぞえました	The child counted to ten on her fingers.	0	1
-3168	たぶん	probably, perhaps	かのじょ は <b>たぶん</b> いえ で ねて います	She's probably sleeping at home.	0	1
-3169	みぎ	right	<b>みぎ</b> の ぽけっと に はんかち が はいって います	There's a handkerchief in my right pocket.	0	1
-3170	ひだり	left	そこ を <b>ひだり</b> に まがって ください	Please turn left there.	0	1
-3171	ひと	person	かれ は やさしい <b>ひと</b> です	He's a nice guy.	0	1
-3172	まん	ten thousand	この くつ は いち<b>まん</b>えん です	These shoes are ten thousand yen.	0	1
-3173	ひとり	one, one person	そこ に は わたし <b>ひとり</b> しか いなかった	I was the only one there.	0	1
-3174	いれる	put in	かれ は かばん に てちょう を <b>いれた</b>	He put the appointment book in his bag.	0	1
-3175	えん	yen@circle	かれーらいす は ななひゃく<b>えん</b> です@そこ に おおき な <b>えん</b> を かいて	The curry and rice is 700 yen.@Draw a big circle there.	0	1
-3176	はいる	enter	さむい の で なか に <b>はいって</b> ください	It's cold so please come inside.	0	1
-3177	でる	go out, leave	けさ は はやく いえ を <b>でました</b>	I left the house early this morning.	0	1
-3178	できる	can do, be good at	かのじょ は いたりあご が <b>できます</b>	She knows Italian.	0	1
-3179	だす	take out	かれ は かばん から きょうかしょ を <b>だした</b>	He took the textbook out of his bag.	0	1
-3180	ほん	book, volume	<b>ほん</b> を いっさつ かいました	I bought one book.	0	1
-3181	とき	time	<b>とき</b> の たつ の は はやい	Time passes by quickly.	0	1
-3182	やすむ	take a day off, take a break	あした かいしゃ を <b>やすみます</b>	I'm off work tomorrow.	0	1
-3183	からだ	body, health	わたし は <b>からだ</b> が じょうぶ だ	I'm physically strong.	0	1
-3184	どこ	where	あの ほん を <b>どこ</b> に おきました か	Where did you put that book?	0	1
-3185	する	do, make	ともだち と いっしょ に しゅくだい を <b>した</b>	I did my homework with a friend.	0	1
-3186	くち	mouth	<b>くち</b> を おおきく あけて ください	Open wide, please.	0	1
-3187	ときどき	sometimes	かれ は <b>ときどき</b> ちこく します	He's sometimes late.	0	1
-3188	むいか	six days, 6th of the month	<b>むいか</b>まえ に にほん に かえって きました	I came back to Japan six days ago.	0	1
-3189	みっか	three days, 3rd of the month	てがみ が とどく の に <b>みっか</b> かかりました	It took three days for the letter to arrive.	0	1
-3190	ようか	eight days, 8th of the month	<b>ようか</b> から いぎりす に いきます	I go to England on the eighth.	0	1
-3191	はつか	20 days, 20th of the month	らいげつ の <b>はつか</b> は おとうと の たんじょうび です	The 20th of next month is my little brother's birthday.	0	1
-3192	ところ	place	わたし は ともだち の <b>ところ</b> に とまった	I stayed at my friend's place for the night.	0	1
-3193	ついたち	1st of the month	らいげつ の <b>ついたち</b> は あいています か	Are you free on the 1st of next month?	0	1
-3194	ここのか	nine days, 9th of the month	<b>ここのか</b> に にもつ が とどきます	The package will arrive on the ninth.	0	1
-3195	とおか	ten days, 10th of the month	<b>とおか</b>ご に かえります	I'll come home in ten days.	0	1
-3196	なのか	seven days, 7th of the month	せんげつ の <b>なのか</b> に まご が うまれました	My grandchild was born on the seventh of last month.	0	1
-3197	ふつか	two days, 2nd of the month	わたし は <b>ふつか</b> まった	I waited two days.	0	4
+3142	よっか	four days, 4th of the month	しんがっき は らいげつ の <b>よっか</b> から です	The new school term starts on the fourth of next month.	1	0
+3143	つき	moon	こんや は <b>つき</b> が とても きれい です	The moon looks so beautiful tonight.	1	0
+3144	みず	water	<b>みず</b> を いっぱい ください	Please give me a glass of water.	1	0
+3145	にちようび	Sunday	<b>にちようび</b> は うみ に いきました	We went to the seaside on Sunday.	1	0
+3146	どようび	Saturday	<b>どようび</b> の よる は くらぶ に いきます	I'm going to a club Saturday night.	1	0
+3147	きんようび	Friday	<b>きんようび</b> の よる は ともだち と でかけます	I go out with my friends on Friday nights.	1	0
+3148	げつようび	Monday	<b>げつようび</b> に あいましょう	Let's meet on Monday.	1	0
+3149	もくようび	Thursday	<b>もくようび</b> は しごと が やすみ です	Thursday is my day off work.	1	0
+3150	ようび	day of the week	<b>ようび</b> を まちがえました	I got the day of the week wrong.	1	0
+3151	かようび	Tuesday	<b>かようび</b> に かいぎ が あります	There's a meeting on Tuesday.	1	0
+3152	すいようび	Wednesday	<b>すいようび</b> は ばいと が あります	I have a part-time job on Wednesdays.	1	0
+3153	わかる	understand	しつもん の いみ は <b>わかりました</b> か	Did you understand the meaning of the question?	1	0
+3154	さき	ahead, first	お<b>さき</b>に どうぞ	Please go ahead.	1	0
+3155	ひゃく	hundred	わたし の そぼ は <b>ひゃく</b>さい です	My grandmother is 100 years old.	1	0
+3156	ことし	this year	<b>ことし</b> は いたりあ に りょこう したい	I want to travel to Italy this year.	1	0
+3157	こんげつ	this month	<b>こんげつ</b> は とても いそがしい	I'm very busy this month.	1	0
+3158	こんしゅう	this week	<b>こんしゅう</b> は にほんご の てすと が あります	There's a Japanese test this week.	1	0
+3159	くる	come	かれ は ひるすぎ に <b>きます</b>	He'll come after lunch.	1	0
+3160	らいねん	next year	<b>らいねん</b> いっしょ に りょこう しましょう	Let's travel together next year.	1	0
+3161	いく	go	にちようび は としょかん に <b>いきます</b>	I go to the library on Sundays.	1	0
+3162	おおきい	big	あの <b>おおきい</b> たてもの は なん です か	What's that big building?	1	0
+3163	ちいさい	small	<b>ちいさい</b> はな が さいて います	Small flowers are blooming.	1	0
+3164	すくない	few, little	ことし は あめ が <b>すくない</b> です 。	There's not much rain this year.	1	0
+3165	すこし	a bit, a little while	<b>すこし</b> つかれました	I'm a little tired.	1	0
+3166	おおい	lots of	きょうと に は おてら が <b>おおい</b>	There are a lot of temples in Kyoto.	1	0
+3167	じゅう	ten	その こ は ゆび で <b>じゅう</b> かぞえました	The child counted to ten on her fingers.	1	0
+3168	たぶん	probably, perhaps	かのじょ は <b>たぶん</b> いえ で ねて います	She's probably sleeping at home.	1	0
+3169	みぎ	right	<b>みぎ</b> の ぽけっと に はんかち が はいって います	There's a handkerchief in my right pocket.	1	0
+3170	ひだり	left	そこ を <b>ひだり</b> に まがって ください	Please turn left there.	1	0
+3171	ひと	person	かれ は やさしい <b>ひと</b> です	He's a nice guy.	1	0
+3172	まん	ten thousand	この くつ は いち<b>まん</b>えん です	These shoes are ten thousand yen.	1	0
+3173	ひとり	one, one person	そこ に は わたし <b>ひとり</b> しか いなかった	I was the only one there.	1	0
+3174	いれる	put in	かれ は かばん に てちょう を <b>いれた</b>	He put the appointment book in his bag.	1	0
+3175	えん	yen@circle	かれーらいす は ななひゃく<b>えん</b> です@そこ に おおき な <b>えん</b> を かいて	The curry and rice is 700 yen.@Draw a big circle there.	1	0
+3176	はいる	enter	さむい の で なか に <b>はいって</b> ください	It's cold so please come inside.	1	0
+3177	でる	go out, leave	けさ は はやく いえ を <b>でました</b>	I left the house early this morning.	1	0
+3178	できる	can do, be good at	かのじょ は いたりあご が <b>できます</b>	She knows Italian.	1	0
+3179	だす	take out	かれ は かばん から きょうかしょ を <b>だした</b>	He took the textbook out of his bag.	1	0
+3180	ほん	book, volume	<b>ほん</b> を いっさつ かいました	I bought one book.	1	0
+3181	とき	time	<b>とき</b> の たつ の は はやい	Time passes by quickly.	1	0
+3182	やすむ	take a day off, take a break	あした かいしゃ を <b>やすみます</b>	I'm off work tomorrow.	1	0
+3183	からだ	body, health	わたし は <b>からだ</b> が じょうぶ だ	I'm physically strong.	1	0
+3184	どこ	where	あの ほん を <b>どこ</b> に おきました か	Where did you put that book?	1	0
+3185	する	do, make	ともだち と いっしょ に しゅくだい を <b>した</b>	I did my homework with a friend.	1	0
+3186	くち	mouth	<b>くち</b> を おおきく あけて ください	Open wide, please.	1	0
+3187	ときどき	sometimes	かれ は <b>ときどき</b> ちこく します	He's sometimes late.	1	0
+3188	むいか	six days, 6th of the month	<b>むいか</b>まえ に にほん に かえって きました	I came back to Japan six days ago.	1	0
+3189	みっか	three days, 3rd of the month	てがみ が とどく の に <b>みっか</b> かかりました	It took three days for the letter to arrive.	1	0
+3190	ようか	eight days, 8th of the month	<b>ようか</b> から いぎりす に いきます	I go to England on the eighth.	1	0
+3191	はつか	20 days, 20th of the month	らいげつ の <b>はつか</b> は おとうと の たんじょうび です	The 20th of next month is my little brother's birthday.	1	0
+3192	ところ	place	わたし は ともだち の <b>ところ</b> に とまった	I stayed at my friend's place for the night.	1	0
+3193	ついたち	1st of the month	らいげつ の <b>ついたち</b> は あいています か	Are you free on the 1st of next month?	1	0
+3194	ここのか	nine days, 9th of the month	<b>ここのか</b> に にもつ が とどきます	The package will arrive on the ninth.	1	0
+3195	とおか	ten days, 10th of the month	<b>とおか</b>ご に かえります	I'll come home in ten days.	1	0
+3196	なのか	seven days, 7th of the month	せんげつ の <b>なのか</b> に まご が うまれました	My grandchild was born on the seventh of last month.	1	0
+3197	ふつか	two days, 2nd of the month	わたし は <b>ふつか</b> まった	I waited two days.	4	0

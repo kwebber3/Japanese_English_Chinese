@@ -21,6 +21,7 @@ class Listening(Toplevel,):
     def __init__(self):
         Toplevel.__init__(self) 
         self.state("zoomed")
+        self.title("Listening")
         self.grab_set()
         self.my_scored_cards, self.score_weights, self.number_of_cards = load_listening_dictionary(DICTIONARY_NAME)      
         self.last_score = -1
